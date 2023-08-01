@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	border: border-box;
+  }
+  
+  .navbar {
+	height: 90px;
+	transition: all 0.5s;
+	z-index: 997;
+	color: #131A22;
+	background-color: #f2f2f2;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	font-size: 0.82rem;
+  }
+  .panelall{
+	color: #131A22;
+	font-weight: 780;
+	font-size: 2rem;
+  }
+  .panelothers a{
+    color: #131A22;
+    text-decoration: none;
+    display: inline;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 18px;
+  }
+  .panelothers i{
+    padding-right: 4px;
+    font-size: 1rem;
+  }
+  .panelothers{
+	width: 60%;
+  }
+  
+  .add-icon a{
+	border: 0px solid transparent;
+	display: inline;
+	font-weight: 400;
+	margin: 10px;
+  }
+
+/* BODY */
+.heading{
+  height: 60px;
+  width: 1200px;
+  background-color: #fdc4c4;
+  text-align: center;
+  margin: 30px;
+  padding-top: 10px;
+  font-size: 1.45rem;
+}
+.Para{
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.Para1{
+  padding: 20px;
+}
+.Para1 p{
+  padding: 10px;
+  text-align: justify;
+}
+
+/* shop section */
+.contact-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: white
+  font-size: 0.85rem;
+}
+.box{
+  height: 250px;
+  width: 23%;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  padding: 20px 20px 20px;
+  margin: 10px;
+}
+.boxcon{
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 50px;
+  font-size: 1.3rem;
+}
+.boxcon i{
+  font-size: 4rem;
+  padding-bottom: 25px;
+}
+.b1{
+  height: 1px;
+  background-size: cover;
+  padding-top: 15px;
+}
+.boxcon a{
+  font-size: 1rem;
+  text-decoration: none;
+  color: blue;
+}
+.b2{
+  height: 1px;
+  background-size: cover;
+  padding-top: 15px;
+}
+.boxcon b{
+  font-size: 1rem;
+  text-decoration: none;
+  color: blue;
+}
+.b3{
+  height: 1px;
+  background-size: cover;
+  padding-top: 15px;
+
+}
+.boxcon c{
+  font-size: 1rem;
+  text-decoration: none;
+  color: blue;
+}
+.box1{
+  text-align: center;
+}
+.box2{
+  text-align: center;
+}
+.box3{
+  text-align: center;
+}
+
+
+/* for volunteer page */
+
+.Para1-v a{
+  color: blue;
+  padding: 500px;
+  justify-content: center;
+}
