@@ -1,0 +1,227 @@
+*{
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	border: border-box;
+}
+  
+.navbar {
+	height: 90px;
+	transition: all 0.5s;
+	z-index: 997;
+	color: #131A22;
+	background-color: #f2f2f2;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	font-size: 0.82rem;
+}
+.panelall{
+	color: #131A22;
+	font-weight: 780;
+	font-size: 2rem;
+  font-style: italic;
+}
+.panelothers a{
+	color: #131A22;
+	text-decoration: none;
+	display: inline;
+	font-weight: 400;
+	font-size: 1rem;
+	margin: 18px;
+}
+.panelothers i{
+  padding-right: 4px;
+  font-size: 1rem;
+}
+.panelothers{
+	width: 60%;
+}
+  
+.add-icon a{
+	border: 0px solid transparent;
+	display: inline;
+	font-weight: 400;
+	margin: 10px;
+}
+
+/* HERO SECTION */
+
+.slider-frame{
+  overflow: hidden;
+  height: 400px;
+  width: 1200px;
+	margin-top: 15px;
+  margin-left: 40px;
+	border-radius: 0.25rem;
+}
+  /*---------- SLIDE ANIMATION --------------*/
+@keyframes slide_animation{
+  0% {left:0px;}
+  10% {left:0px;}
+  20% {left:1200px;}
+  30% {left:1200px;}
+  40% {left: 2400px;}
+  50% {left: 2400px;}
+  60% {left: 1200px;}
+  70% {left: 1200px;}
+  80% {left: 0px;}
+  90% {left: 0px;}
+  100% {left:0px;}
+}
+ 
+@-webkit-keyframes slide_animation{
+  0% {left:0px;}
+  10% {left:0px;}
+  20% {left:1200px;}
+  30% {left:1200px;}
+  40% {left: 2400px;}
+  50% {left: 2400px;}
+  60% {left: 1200px;}
+  70% {left: 1200px;}
+  80% {left: 0px;}
+  90% {left: 0px;}
+  100% {left:0px;}
+}
+ 
+.slide-images{
+  width: 3600px;
+  height: 400px;
+  margin: 0 0 0 -2400px;
+  position: relative;
+  -webkit-animation-name: slide_animation;
+  animation-name: slide_animation;
+  -webkit-animation-duration: 25s;
+  animation-duration: 25s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+ 
+.img-container{
+  height: 400px;
+  width: 1200px;
+  position: relative;
+  float: left;
+}
+.img-container img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  float: left;
+}
+
+/* home page content section */
+/* shop section */
+.main-content-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #f2f2f2;
+  font-size: 0.85rem;
+  
+}
+.box{
+  height: 250px;
+  width: 23%;
+  border: 1px solid #ffffff;
+  padding: 20px 0px 15px;
+  margin-top: 18px;
+}
+
+.box1{
+  background-image: url("images/drive-download-20230727T180739Z-001/PIC1.jpg");
+  background-size: cover;
+}
+.box2{
+  background-image: url("images/drive-download-20230727T180739Z-001/PIC2.jpg");
+  background-size: cover;
+}
+.box3{
+  background-image: url("images/drive-download-20230727T180739Z-001/PIC3.jpg");
+  background-size: cover;
+}
+.box4{
+  background-image: url("images/drive-download-20230727T180739Z-001/PIC4.jpg");
+  background-size: cover;
+}
+.box5{
+  background-image: url("images/drive-download-20230727T180739Z-001/PIC5.jpg");
+  background-size: cover;
+}
+.box6{
+  background-image: url("images/drive-download-20230727T180739Z-001/PIC6.jpg");
+  background-size: cover;
+}
+.box7{
+  background-image: url("images/drive-download-20230727T180739Z-001/PIC7.jpg");
+  background-size: cover;
+}
+.box8{
+  background-image: url("images/drive-download-20230727T180739Z-001/PIC8.jpg");
+  background-size: cover;
+}
+
+/* Donate Page */
+.heading-d{
+  height: 60px;
+  width: 1200px;
+  background-color:rgb(247, 171, 30);
+  text-align: center;
+  margin: 30px;
+  padding-top: 10px;
+  font-size: 1.45rem;
+}
+.Para1-d{
+  padding: 10px;
+  text-align: center;
+}
+.Para1-d p{
+  padding: 10px;
+  text-align: center;
+}
+
+/* donate section */
+
+.scan-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 0.85rem;
+}
+.scan{
+  height: 500px;
+  width: 38%;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  padding: 20px 20px 20px;
+  margin: 10px;
+  background-image: url("images/scan&donate.jpg");
+  background-size: cover;
+}
+
+/* volunteer section */
+.heading-v{
+  height: 70px;
+  width: 1225px;
+  text-align: center;
+  margin: 30px;
+  padding-top: 20px;
+  font-size: 1.25rem;
+  background-image: url(https://media.istockphoto.com/id/1031411886/photo/thank-you-for-your-interest.jpg?s=170667a&w=0&k=20&c=fU2jihLexxu_7dI9wnNZu86XwcXRdz_5o2q69S8NutA=);
+  background-size: cover;
+}
+.Para1-v p{
+  padding-left: 50px;
+  padding-top: 15px;
+}
+.Para1-v button{
+  padding: 8px;
+}
+.v1{
+  margin-top: 40px;
+  text-align: center;
+}
