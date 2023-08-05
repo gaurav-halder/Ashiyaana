@@ -1,3 +1,6 @@
+html{
+  font-size: 10px;
+}
 *{
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
@@ -5,15 +8,16 @@
 }
   
 .navbar {
-	height: 90px;
+	height: 9rem;
+  width: 100%;
 	transition: all 0.5s;
 	z-index: 997;
 	color: #131A22;
-	background-color: #f2f2f2;
+	background-color: #f2f2f283;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	font-size: 0.82rem;
+	font-size: 1.3rem;
 }
 .panelall{
 	color: #131A22;
@@ -21,72 +25,78 @@
 	font-size: 2rem;
   font-style: italic;
 }
+/* logo */
+
+.a_logo{
+  height: 9rem;
+  width: 10rem;
+  background-image: url("images/web-icon.jpg");
+  background-size: cover;
+}
+
 .panelothers a{
 	color: #131A22;
 	text-decoration: none;
 	display: inline;
 	font-weight: 400;
-	font-size: 1rem;
-	margin: 18px;
+	font-size: 1.6rem;
+	margin: 1.9rem;
 }
 .panelothers i{
-  padding-right: 4px;
-  font-size: 1rem;
-}
-.panelothers{
-	width: 60%;
+  padding: 0rem;
+  font-size: 1.6rem;
 }
   
 .add-icon a{
 	border: 0px solid transparent;
 	display: inline;
 	font-weight: 400;
-	margin: 10px;
+	margin: 0.90rem;
 }
 
 /* HERO SECTION */
 
 .slider-frame{
   overflow: hidden;
-  height: 400px;
-  width: 1200px;
-	margin-top: 15px;
-  margin-left: 40px;
+  height: 40rem;
+  width: 120rem;
+  margin: 3rem;
+	margin-top: 1.8rem;
 	border-radius: 0.25rem;
 }
   /*---------- SLIDE ANIMATION --------------*/
 @keyframes slide_animation{
-  0% {left:0px;}
-  10% {left:0px;}
-  20% {left:1200px;}
-  30% {left:1200px;}
-  40% {left: 2400px;}
-  50% {left: 2400px;}
-  60% {left: 1200px;}
-  70% {left: 1200px;}
-  80% {left: 0px;}
-  90% {left: 0px;}
-  100% {left:0px;}
+  0% {left:0rem;}
+  10% {left:0rem;}
+  20% {left:120rem;}
+  30% {left:120rem;}
+  40% {left: 240rem;}
+  50% {left: 240rem;}
+  60% {left: 120rem;}
+  70% {left: 120rem;}
+  80% {left: 0rem;}
+  90% {left: 0rem;}
+  100% {left:0rem;}
 }
  
 @-webkit-keyframes slide_animation{
-  0% {left:0px;}
-  10% {left:0px;}
-  20% {left:1200px;}
-  30% {left:1200px;}
-  40% {left: 2400px;}
-  50% {left: 2400px;}
-  60% {left: 1200px;}
-  70% {left: 1200px;}
-  80% {left: 0px;}
-  90% {left: 0px;}
-  100% {left:0px;}
+  0% {left:0rem;}
+  10% {left:0rem;}
+  20% {left:120rem;}
+  30% {left:120rem;}
+  40% {left: 240rem;}
+  50% {left: 240rem;}
+  60% {left: 120rem;}
+  70% {left: 120rem;}
+  80% {left: 0rem;}
+  90% {left: 0rem;}
+  100% {left:0rem;}
 }
  
 .slide-images{
-  width: 3600px;
-  height: 400px;
-  margin: 0 0 0 -2400px;
+  width: 360rem;
+  height: 40rem;
+  margin: 0 0 0 -240rem;
   position: relative;
   -webkit-animation-name: slide_animation;
   animation-name: slide_animation;
@@ -101,21 +111,170 @@
 }
  
 .img-container{
-  height: 400px;
-  width: 1200px;
+  height: 40rem;
+  width: 120rem;
   position: relative;
   float: left;
 }
 .img-container img{
-  height: 100%;
-  width: 100%;
+  height: 40rem;
+  width: 120rem;
   object-fit: cover;
   position: relative;
   float: left;
 }
 
+/* middle home page section */
+.middle{
+  margin-top: 4rem;
+  text-align: center;
+  text-decoration: solid;
+  font-family: Courier, monospace;
+  font-size: 4.3rem;
+  font-weight: 650;
+}
+.Haboutus-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+  margin-bottom: -10rem;
+  
+}
+.Haboutpic{
+  height: 32rem;
+  width: 32rem;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  margin: 3rem;
+  background-image: url("images/Haboutuspic.png");
+  background-size: cover;
+}
+.Hab-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: white;
+  font-size: 0.8rem;
+}
+.hbox{
+  height: 57rem;
+  width: 55rem;
+  /* border: 2px solid black; */
+  background-color: #ffffff;
+  margin-top: -1rem;
+}
+.hboxcon{
+  font-size: 2.4rem;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+.About_Us_middle{
+  margin-top: -1rem;
+}
+.hboxcon p{
+  text-align: left;
+  text-align: justify;
+  padding-top: 1.5rem;
+  font-size: 1.67rem;
+  font-family: Courier, monospace;
+  font-weight: 600;
+}
+.hboxcon button{
+  font-size: 1.4rem;
+  margin: 2rem;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  background-color: #f2f2f283;
+  border-color: #f2f2f283;
+}
+.hboxcon a{
+  font-family: Courier, monospace;
+  font-weight: 700;
+  text-decoration: none;
+  color: red;
+}
+
+/* middle 2 home page section
+.middle2{
+  margin: rem;
+  text-align: center;
+  text-decoration: solid;
+  font-size: 1.7rem;
+} */
+
+
+/* DONATE VOLUNTER ADOPT SECTION DVA SECTION */
+.DVA-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* background-color: #e2e7e6; */
+  font-size: 1rem;
+}
+.dvabox{
+  height: 40rem;
+  width: 37rem;
+  background-color: #ffffff;
+  margin-top: 1.8rem;
+}
+.dvaboxcon1{
+  padding: 3rem;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #f2f2f2;
+}
+.dvaboxcon2{
+  padding-left: 3rem;
+  padding-right: 1rem;
+  padding-top: 10rem;
+}
+.dvaboxcon2 p{
+  font-family: Courier, monospace;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: white;
+}
+.dvaboxcon3{
+  margin: 3rem;
+  margin-top: 4rem;
+  font-weight: 500;
+}
+.dvaboxcon3 button{
+  padding: 0.7rem;
+  background-color: #f2f2f283;
+  border-color: #f2f2f283;
+}
+.dvaboxcon3 a{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  font-family: Courier, monospace;
+}
+.dvabox1{
+  height: 40rem;
+  width: 37rem;
+  background-image: url(images/drive-download-20230727T180739Z-001/DVA_1.jpg);
+  background-size: cover;
+}
+.dvabox2{
+  height: 40rem;
+  width: 37rem;
+  background-image: url(images/drive-download-20230727T180739Z-001/DVA_4.jpg);
+  background-size: cover;
+}
+.dvabox3{
+  height: 40rem;
+  width: 37rem;
+  background-image: url(images/drive-download-20230727T180739Z-001/DVA_3.jpg);
+  background-size: cover;
+}
+
 /* home page content section */
-/* shop section */
+
 .main-content-section{
   display: flex;
   flex-wrap: wrap;
@@ -167,22 +326,71 @@
 
 /* Donate Page */
 .heading-d{
-  height: 60px;
-  width: 1200px;
+  height: 6rem;
+  width: 100%;
   background-color:rgb(247, 171, 30);
   text-align: center;
-  margin: 30px;
-  padding-top: 10px;
-  font-size: 1.45rem;
+  margin: 3rem;
+  padding-top: 1.2rem;
+  font-size: 2rem;
 }
 .Para1-d{
-  padding: 10px;
   text-align: center;
+  font-size: 1.45rem;
 }
 .Para1-d p{
-  padding: 10px;
+  padding: 1rem;
   text-align: center;
 }
+
+
+/* About us section*/
+
+.heading-aboutus{
+  height: 6rem;
+  width: 100%;
+  background-color: #fdc4c4;
+  text-align: center;
+  margin: 3rem;
+  padding-top: 1.2rem;
+  font-size: 2rem;
+}
+.Para-aboutus{
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+.Para1-aboutus{
+  padding: 2rem;
+}
+.Para1-aboutus p{
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+
+/* What we do section*/
+
+.heading-whatwedo{
+  height: 6rem;
+  width: 100%;
+  background-color: #fdc4c4;
+  text-align: center;
+  margin: 3rem;
+  padding-top: 1.2rem;
+  font-size: 2rem;
+}
+.Para1-whatwedo{
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+.Para1-whatwedo p{
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
 
 /* donate section */
 
@@ -190,38 +398,320 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  font-size: 0.85rem;
 }
 .scan{
-  height: 500px;
-  width: 38%;
+  height: 36rem;
+  width: 30rem;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  padding: 20px 20px 20px;
+  margin: 1rem;
+  background-image: url("images/Scan&donate_QR.jpg");
+  background-size: cover;
+}
+.donate-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: white;
+  font-size: 0.85rem;
+}
+.dbox{
+  height: 280px;
+  width: 500px;
+  border: 2px solid black;
+  /* border-radius: 10px; */
+  background-color: #ffffff;
+  padding: 25px 20px 20px;
+  margin: 30px;
+}
+.dboxcon{
+  font-size: 1.8rem;
+}
+.dboxcon p{
+  text-align: left;
+}
+/* volunteer section */
+.heading-v{
+  height: 6rem;
+  width: 100%;
+  text-align: center;
+  margin: 3rem;
+  padding-top: 1.2rem;
+  font-size: 2rem;
+  background-image: url(https://media.istockphoto.com/id/1031411886/photo/thank-you-for-your-interest.jpg?s=170667a&w=0&k=20&c=fU2jihLexxu_7dI9wnNZu86XwcXRdz_5o2q69S8NutA=);
+  background-size: cover;
+  
+}
+.Para1-v p{
+  font-size: 1.5rem;
+  padding-left: 5rem;
+  padding-top: 1.5rem;
+  padding-right: 2rem;
+  text-align: justify;
+}
+.Para1-v p1{
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-left: 5rem;
+  padding-right: 2rem;
+  text-align: justify;
+}
+.v1{
+  margin-top: 3rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* contact us section */
+
+/* BODY */
+.heading-c{
+  height: 6rem;
+  width: 100%;
+  background-color: #fdc4c4;
+  text-align: center;
+  margin: 3rem;
+  margin-right: 3rem;
+  padding-top: 1.2rem;
+  font-size: 2rem;
+}
+.Para{
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.Para1{
+  padding: 20px;
+}
+.Para1 p{
+  padding: 10px;
+  text-align: justify;
+}
+.contact-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: white;
+  font-size: 0.85rem;
+}
+.cbox{
+  height: 25rem;
+  width: 23%;
   border: 1px solid #ffffff;
   background-color: #ffffff;
   padding: 20px 20px 20px;
   margin: 10px;
-  background-image: url("images/scan&donate.jpg");
-  background-size: cover;
 }
-
-/* volunteer section */
-.heading-v{
-  height: 70px;
-  width: 1225px;
-  text-align: center;
-  margin: 30px;
+.cboxcon{
+  margin-left: 10px;
+  margin-right: 10px;
   padding-top: 20px;
-  font-size: 1.25rem;
-  background-image: url(https://media.istockphoto.com/id/1031411886/photo/thank-you-for-your-interest.jpg?s=170667a&w=0&k=20&c=fU2jihLexxu_7dI9wnNZu86XwcXRdz_5o2q69S8NutA=);
-  background-size: cover;
+  font-size: 1.3rem;
 }
-.Para1-v p{
-  padding-left: 50px;
+.cboxcon i{
+  font-size: 5rem;
+  padding-bottom: 25px;
+}
+.cb1{
+  height: 1px;
+  background-size: cover;
   padding-top: 15px;
 }
-.Para1-v button{
-  padding: 8px;
+.cboxcon a{
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: blue;
 }
-.v1{
-  margin-top: 40px;
+.cb2{
+  height: 1px;
+  background-size: cover;
+  padding-top: 15px;
+}
+.cboxcon b{
+  font-size: 1rem;
+  text-decoration: none;
+  color: blue;
+}
+.cb3{
+  height: 1px;
+  background-size: cover;
+  padding-top: 15px;
   text-align: center;
+}
+.cboxcon c{
+  font-size: 1rem;
+  text-decoration: none;
+  color: blue;
+}
+.boxc1{
+  text-align: center;
+}
+.boxc2{
+  text-align: center;
+}
+.boxc3{
+  text-align: center;
+}
+
+
+@media(max-width:998px){
+  html{
+    font-size: 55%;
+  }
+}
+@media(max-width:768px){
+  html{
+    font-size: 45%;
+  }
+}
+
+
+
+
+
+/* chatgpt */
+/* Default styles for desktop */
+/* ... Your existing CSS code ... */
+
+/* Media query for tablet and smaller devices */
+@media (max-width: 1024px) {
+  .slider-frame {
+    height: 30rem;
+    width: 80%;
+    margin: 2rem auto;
+  }
+
+  .slide-images {
+    width: 240rem;
+    height: 30rem;
+    margin: 0 0 0 -160rem;
+  }
+
+  .img-container {
+    height: 30rem;
+    width: 80%;
+    float: left;
+  }
+
+  .img-container img {
+    height: 30rem;
+    width: 100%;
+  }
+
+  /* Adjust other elements for tablet and smaller devices here */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+
+  .slider-frame {
+    height: 20rem;
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  .slide-images {
+    width: 180rem;
+    height: 20rem;
+    margin: 0 0 0 -60rem;
+  }
+
+  .img-container {
+    height: 20rem;
+    width: 90%;
+    float: left;
+  }
+
+  .img-container img {
+    height: 20rem;
+    width: 100%;
+  }
+
+  /* Adjust other elements for mobile devices here */
+  .navbar {
+    height: 6rem;
+    font-size: 1rem;
+  }
+
+  /* Add more styles for other elements as needed */
+}
+
+
+
+
+
+
+/* footer */
+
+footer{
+  margin-top: 3rem;
+}
+.foot1{
+  height: 5rem;
+  background-color: #37475a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foot1 a{
+  text-decoration:  none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+}
+.foot2{
+  height: 30rem;
+  color: #ffffff;
+  background-color: #222f3e;
+  display: flex;
+  justify-content: space-evenly;
+}
+.foot2 u{
+  text-decoration: none;
+}
+.foot2 p{
+  margin-top: 4rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.foot2 a{
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 15px;
+  color: #dddddd;
+  padding-top: 1rem ;
+  text-decoration: none;
+}
+.foot2 i{
+  padding-right: 1rem;
+}
+/* .foot3{
+  background-color: #222f3e;
+  height: 60px;
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: center;
+}
+.foot3logo{
+  height: 40px;
+  width: 100px;
+  background-image: url(Amazonlogo.png);
+  background-size: cover;
+} */
+.foot4{
+  height: 4rem;
+  background-color: #131A22;
+  opacity: 1;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 2rem;
+}
+.foot4 p{
+  padding: 0.5rem;
 }
