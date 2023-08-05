@@ -9,7 +9,7 @@
 	transition: all 0.5s;
 	z-index: 997;
 	color: #131A22;
-	background-color: #f2f2f2;
+	background-color: #f2f2f283;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
@@ -20,6 +20,14 @@
 	font-weight: 780;
 	font-size: 2rem;
   }
+
+  .a_logo{
+    height: 90px;
+    width: 98px;
+    background-image: url("images/web-icon.jpg");
+    background-size: cover;
+  }
+
   .panelothers a{
     color: #131A22;
     text-decoration: none;
@@ -44,7 +52,7 @@
   }
 
 /* BODY */
-.heading{
+.heading-aboutus{
   height: 60px;
   width: 1200px;
   background-color: #fdc4c4;
@@ -53,16 +61,16 @@
   padding-top: 10px;
   font-size: 1.45rem;
 }
-.Para{
+.Para-aboutus{
   font-size: 1.3rem;
   font-weight: 700;
   padding-top: 20px;
   padding-left: 10px;
 }
-.Para1{
+.Para1-aboutus{
   padding: 20px;
 }
-.Para1 p{
+.Para1-aboutus p{
   padding: 10px;
   text-align: justify;
 }
@@ -72,7 +80,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  background-color: white
+  background-color: white;
   font-size: 0.85rem;
 }
 .box{
