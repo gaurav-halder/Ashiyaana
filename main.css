@@ -43,7 +43,7 @@ html{
 	margin: 1.9rem;
 }
 .panelothers i{
-  padding: 0rem;
+  padding: 0.6rem;
   font-size: 1.6rem;
 }
   
@@ -55,17 +55,69 @@ html{
 }
 
 /* HERO SECTION */
+#slider {
+  overflow: hidden;
+}
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+#slider figure img {
+  height: 40rem;
+  width: 20%;
+  float: left;
+  margin-top: 1.5rem;
+}
 
-.slider-frame{
+@keyframes slider {
+  0% {
+      left: 0;
+  }
+  20% {
+      left: 0;
+  }
+  25% {
+      left: -100%;
+  }
+  45% {
+      left: -100%;
+  }
+  50% {
+      left: -200%;
+  }
+  70% {
+      left: -200%;
+  }
+  75% {
+      left: -300%;
+  }
+  95% {
+      left: -300%;
+  }
+  100% {
+      left: -400%;
+  }
+}
+
+
+
+
+
+
+
+/* .slider-frame{
   overflow: hidden;
   height: 40rem;
   width: 120rem;
   margin: 3rem;
 	margin-top: 1.8rem;
 	border-radius: 0.25rem;
-}
+} */
   /*---------- SLIDE ANIMATION --------------*/
-@keyframes slide_animation{
+/* @keyframes slide_animation{
   0% {left:0rem;}
   10% {left:0rem;}
   20% {left:120rem;}
@@ -122,10 +174,11 @@ html{
   object-fit: cover;
   position: relative;
   float: left;
-}
+} */
 
 /* middle home page section */
 .middle{
+  margin: 1rem;
   margin-top: 4rem;
   text-align: center;
   text-decoration: solid;
@@ -166,7 +219,7 @@ html{
 }
 .hboxcon{
   font-size: 2.4rem;
-  margin-top: 2rem;
+  margin: 2rem;
   font-weight: 700;
 }
 .About_Us_middle{
